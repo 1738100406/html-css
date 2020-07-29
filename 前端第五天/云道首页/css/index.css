@@ -1,0 +1,91 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	height: 3000px;
+}
+/*先删除默认的内外边距*/
+/*导航开始*/
+	.header{
+		width: 1263px;
+		height: 100px;
+		background-color: #fff;
+		margin: 0px;
+	}
+	.inner{
+		width:1200px;
+		height: 100px;
+		margin: 0 auto;
+		line-height: 100px;
+
+	}
+	.inner .logo{
+		width: 223px;
+		height: 100px;
+		float: left;
+	}
+	.nav{
+		width: 592px;
+		height: 100px;
+		float: right;
+		line-height: 100px;
+	}
+
+	li {
+		list-style: none;/*取消li的小点*/
+		margin: 0px 20px;
+
+	}
+	li a{
+		text-decoration: none;
+		color: #333;
+		font-size: 18px;
+		float: left;
+		margin-left: 20px;
+
+	}
+	li a:hover{
+		color: #2288f6;
+	}
+/*导航结束*/
+
+/*banner开始*/
+.banner{
+	width: 1263px;
+	height: 620px;
+	background: url(../images/banner.jpg) no-repeat top center;
+}
+/*banner结束*/
+
+.service{
+	width: 1005px;
+	height: 59px;
+	margin: 50px auto 0; 
+
+}
+.service h3{
+	width: 167px;
+	height: 46px;
+	margin: -20px auto;
+}
+.service .service_hd{
+	border-bottom: 1px solid #666;	 
+
+
+}
+.service .service_hb{
+	width: 830px;
+	height: 52px;
+	margin: 40px auto 0;
+	text-align: center;
+}
+.service p{
+	font-size: 12px;
+    color: #666;
+}
+
+.service_hb ul li h4{
+	font-size: 28px;
+	text-align: center;
+}
