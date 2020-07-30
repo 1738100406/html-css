@@ -1,0 +1,16 @@
+/*jd首页*/
+
+.jd{
+	height: 480px;
+	background-color: pink;
+}
+.jdinner{
+	height: 480px;
+	background-color: skyblue;
+}
+.ad{
+	height: 480px;
+	background: url(../images/);
+}
+
+

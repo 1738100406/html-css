@@ -1,0 +1,378 @@
+/*版心*/
+*{
+	padding: 0;
+	margin: 0 ;
+}
+.w{
+	width: 1108px;
+	margin:0 auto;
+}
+.fr{
+	float: right;
+}
+.fl{
+	float: left;
+}
+li{
+	list-style: none;
+	float: left;
+}
+.style-red{
+	color: red !important;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+/*京东 顶部 start*/
+.J_event{
+	height: 80px;
+	background-color: #000;
+
+}
+.J_event a{
+	display: block;
+	height: 80px;
+	background:url(../images/top.jpg) no-repeat;
+}
+.shortcut{
+	height: 30px;
+	background-color: #E3E4E5;
+	line-height: 30px;
+	border-bottom: 1px solid #dddddd;
+}
+.fl .pos{
+	font-family: 'icomoon';
+	font-style: normal;
+	color: #f10215;
+}
+.fl li{
+	color: #999;
+	margin-left: 200px;
+}
+.fr a{
+	text-decoration: none;
+	color: #999;
+	font-size: 14px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.fr a:hover{
+	color:#e33333;
+}
+.spacer{
+	width: 1px;
+	height: 20px;
+	background-color: #ccc;
+	margin: 5px 5px;
+}
+.drop i{
+	font-family: 'icomoon';
+	font-size: 16px;
+	color: #666;
+	font-style: normal;
+}
+/*京东 顶部 end*/
+/*<!-- header部分start -->*/
+.header{
+	height: 140px;
+
+}
+.inner{
+	height: 140px;
+	position: relative;
+}
+.logo{
+	width: 190px;
+	height: 170px;
+	position: absolute;
+	top: -30px;
+	left: 0;
+	box-shadow: 0 -12px 10px rgba(0,0,0,.2);
+}
+.logo h1{
+	margin: 0;
+}
+.logo a{
+	width: 190px;
+	height: 170px;
+	display: block;
+	background: url(../images/logo.jpg) no-repeat;
+	text-indent: -9999px;
+	overflow: hidden;
+}
+
+.search{
+	width: 550px;
+	height: 35px;
+	background-color: pink;
+	position: absolute;
+	top:25px;
+	left: 320px;
+}
+input, button{
+	padding:0;
+	border: 0;
+}
+a{
+	text-decoration: none;
+}
+.search input{
+	width: 493px;
+	height: 33px;
+	border:1px solid #f10215;
+	padding-left: 5px;
+	outline: none;
+	color: #989898;
+	float: left;
+}
+.search button{
+	width: 50px;
+	height: 35px;
+	background-color:#f10215; 
+	float: left;
+	cursor: pointer;/*鼠标变小手*/
+}
+.search i{
+	font-family: 'icomoon';
+	font-style: normal;
+	font-size: 18px;
+}
+.search em{
+	width: 19px;
+	height: 15px; 
+	position: absolute;
+	color: #fff;
+	top: 10px;
+	right: 65px;
+	cursor: pointer;
+	background:url(../images/sprite-search.png) no-repeat;
+}
+
+.search em:hover{
+	background-position: -30px 0;
+}
+
+.hotsword{
+	position: absolute;
+	top: 70px;
+	left: 320px;
+	font-size: 12px;
+
+}
+.hotsword a{
+	color: #ccc;
+}
+.hotsword a:hover{
+	color:red;
+}
+.car{
+	position: absolute;
+	top: 25px;
+	right: 60px;
+	width: 170px;
+	height: 32px; 
+	background-color: #ffffff;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 32px;
+
+}
+.car a{
+	color: #f10214;
+	font-size: 12px;
+    text-decoration: none;
+
+}
+.car i{
+	font-style: normal;
+	font-family: 'icomoon';
+	color:#f10214;
+}
+.car s{
+	position: absolute;
+	width: 13px;
+	height: 13px;
+	background-color:#f10215;
+	text-decoration: none;
+	padding:1px;
+	line-height: 13px;
+	border-radius: 50%;
+	color: #fff;
+
+}
+.navsitems{
+	width: 790px;
+	height: 60px;
+	/*background-color: pink;*/
+	position: absolute;
+	bottom: 0px;
+	top: 100px;
+	left: 230px;
+}
+.navsitems li{
+	margin-left: 25px;
+}
+.navsitems a{
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	font-size: 14px;
+	color: #333333;
+	font-weight: 700;
+
+}
+.navsitems a:hover{
+	color: #f10215;
+}
+/*-- header部分end */
+
+
+/*页面底部部分 start*/
+.footer{
+	height: 560px;
+	background-color: #EAEAEA;
+}
+.footer-service{
+	height: 100px;
+	border-bottom: 1px solid #dedede;
+}
+.footer-service-inner{
+	height: 100px;
+	/*background-color: pink;*/
+	padding :30px 0;
+	overflow: hidden;
+}
+h1,h5, p{
+	margin: 0;
+}
+.footer-service-inner li{
+	width: 260px;
+	height: 42px;
+	/*background-color: purple;*/
+	position: relative;
+}
+.service_unit {
+	width: 225px;
+	height: 42px;
+	margin: 0 auto;
+}
+
+.service_unit h5{
+	width: 36px;
+	height: 42px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background:url(../images/ico.png) no-repeat;
+	text-indent: -999px;
+
+}
+.service_unit p{
+	height: 42px;
+	line-height: 42px;
+	margin-left: 30px;
+	color: #444444;
+	font-weight: 700;
+	font-size: 18px;
+
+}
+.service_unit .kuai{
+	background-position: 0 -44px;
+}	
+.service_unit .hao{
+	background-position: 0 -84px;
+}
+.service_unit .sheng{
+	background-position: 0 -128px;
+}
+
+
+
+.help{
+	height: 180px;
+	padding-top: 20px;
+}
+.help dt{
+	font-size: 14px;
+	font-weight: 700;
+	color: #666;
+	height: 30px;
+}
+.help dd{
+	height: 22px;
+}
+.help a{
+	font-size: 12px;
+	color: #727272;
+}
+.help a:hover{
+	color: #f10215;
+}
+
+.help dl{
+	float: left;
+	width: 155px;
+}
+
+
+		/*版权模块开始*/
+.copyright{
+	border-top: 1px solid #ccc;
+	padding-top: 15px;
+}
+.links a{
+	font-size: 14px;
+	color: #666;
+}
+.links span{
+	font-size: 12px;
+	color: #cccccc;
+}
+.links a:hover{
+	color: #c81623;
+}
+.c-info{
+	color: #999999;
+	font-size: 12px;
+	text-align: center;
+	line-height: 18px;
+	margin-top: 10px;
+}
+.tupian{
+	text-align: center;
+}
+.tupian a{
+	width: 103px;
+	height: 32px;
+	display: inline-block;
+	background:url(../images/ico_footer.png) no-repeat 0 -151px;
+}
+
+.tupian .tu1{
+	background-position: -104px -185px;
+}
+.tupian .tu2{
+	background-position: 0px -185px;
+}
+.tupian .tu3{
+	background-position: 0px -220px;
+}
+.tupian .tu4{
+	background-position: -104px -220px;
+}
+
+
+
+/*页面底部部分 end*/
+
+
+
+
+
+
+
+
+
+
