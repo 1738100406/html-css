@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			width: 448px;
+			height: 252px;
+			display: block;
+			position: relative;
+			margin: 100px;
+
+		}
+		.hei{
+			width: 100%;
+			height: 100%;
+			background:rgba(0 , 0 , 0 ,.4) url(images/arr.png) no-repeat center;
+			position: absolute;
+			top:0;
+			left: 0;
+			display: none;/*正常情况下是隐藏的*/
+
+		}		
+/*		什么时候出来？	
+		当鼠标放到a上 hei出来*/
+		a:hover .hei{
+			display: block;/*显现出来*/
+		}
+	</style>
+</head>
+<body>
+	<a href="">
+		<img src="images/tudou.jpg">
+		<div class="hei"></div>
+	</a>
+		<a href="">
+		<img src="images/tudou.jpg">
+		<div class="hei"></div>
+	</a>
+		<a href="">
+		<img src="images/tudou.jpg">
+		<div class="hei"></div>
+	</a>
+</body>
+</html>
